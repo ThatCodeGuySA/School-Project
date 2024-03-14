@@ -1,0 +1,327 @@
+#navbar {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0px;
+  position: fixed;
+  background-color: #555;
+  height: 80px;
+  color: white;
+  list-style-type: none;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 20px;
+}
+
+td, th {
+  border: 2px solid black;
+  padding: 5px;
+}
+
+th {}
+
+td {
+  text-align: left;
+  font-family: courier;
+  width: 25%;
+}
+
+table {
+  table-layout: fixed;
+  width: 80%;
+  border-collapse: collapse;
+  word-spacing: 5px;
+  margin-left: 100px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a:hover {
+  color: DarkGrey;
+}
+
+.summ {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 97px;
+}
+
+.summ2 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.uses {
+  font-family: "Times New Roman", Times, serif;
+  margin-left: 30px;
+}
+
+.use {
+  text-decoration: underline;
+}
+
+.wristWatches {
+  font-family: "Times New Roman", Times, serif;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.watchTypes {
+  text-decoration: underline;
+}
+
+.Wlist {
+  padding-left: 15px;
+}
+
+.watchDes {
+  text-decoration: underline;
+  font-style: italic;
+  font-family: French Script MT;
+  font-size: 30px;
+  background-color: #966fd6;
+  color: #d1d1d1;
+}
+
+.title {
+  font-family: cursive;
+}
+
+.heading {
+  position: fixed;
+  margin-left: 237px;
+  margin-top: 4px;
+  font-size: 30px;
+  float: center;
+}
+
+.heading a {
+  display: block;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.heading a:hover:not(.active) {
+  background-color: #111;
+}
+
+.dropbtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  margin-left: 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: fixed;
+  margin-top: 50px;
+  background-color: #f1f1f1;
+  min-width: 100px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}
+
+.paragraph1 {
+  font-family: "Times New Roman", Times, serif;
+  line-height: 1.5;
+}
+
+.paragraph2 {
+  position: relative;
+  bottom: 20px;
+  font-family: "Times New Roman", Times, serif;
+  line-height: 1.5;
+}
+
+.paragraph3 {
+  position: relative;
+  font-family: "Times New Roman", Times, serif;
+  line-height: 1.5;
+}
+
+.paragraph4 {
+  position: relative;
+  bottom: 26px;
+  font-family: "Times New Roman", Times, serif;
+  line-height: 1.5;
+}
+
+.paragraph5 {
+  font-family: "Times New Roman", Times, serif;
+  line-height: 1.5;
+}
+
+.paragraph6 {
+  position: relative;
+  bottom: 50px;
+  line-height: 1.5;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.list {
+  color: DeepSkyBlue;
+  text-decoration: none;
+}
+
+.watch {
+  color: DarkGoldenrod;
+  text-decoration: none;
+}
+
+.watch :hover {
+  color: DarkGoldenrod;
+}
+
+.price {
+  font-style: italic;
+  align-content: center;
+}
+
+.addInfo {
+  color: #ff0800;
+  padding-top: 20px;
+  text-align: center;
+  text-decoration: underline;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/*About CSS*/
+small {
+  left: 0;
+  width: 100%;
+  color: black;
+  padding: 15px 0;
+  position: absolute;
+}
+
+.forbes {
+  color: DarkGoldenrod;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+.purpose a.forbes:hover {
+  color: #dbdb00;
+}
+
+.Hpage {
+  color: #db0000;
+  text-decoration: none;
+}
+
+.pageH a.Hpage:hover {
+  color: #d1d1d1;
+}
+
+.aboutHead {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 22px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.webFun {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 22px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.Fun {
+  line-height: 1.5;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 22px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.learnt {
+  line-height: 1.5;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 22px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.webInfo {
+  cursor: pointer;
+}
+
+.attention {
+  color: #ff0800;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.att {
+  color: #ff0800;
+  font-family: "Times New Roman", Times, serif;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+/*Group Memeber CSS*/
+#infoEd {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.GMI {
+  font-size: 22px;
+  text-align: center;
+  text-decoration: underline;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.info {
+  font-size: 22px;
+  text-align: center;
+  text-decoration: underline;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.infoEd {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 22px;
+}
